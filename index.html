@@ -5,12 +5,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/style.css" />
     <title>Google Homepage | The Odin Project</title>
 </head>
 
 <body>
     <div class="container">
+        <!-- Header -->
         <header>
             <nav class="nav">
                 <ul class="nav-list">
@@ -22,14 +23,60 @@
                     </li>
                 </ul>
                 <div class="apps">
-                    <img src="./images/apps.png" alt="apps">
+                    <img src="./images/apps.png" alt="apps" />
                 </div>
 
                 <div class="user">
-                    <img src="./images/user.png" alt="user">
+                    <img src="./images/user.png" alt="user" />
                 </div>
             </nav>
         </header>
+        <!-- Main -->
+        <main id="main">
+            <div class="main__logo">
+                <img src="./images/logo.png" alt="google logo">
+            </div>
+
+            <div class="main__search-form">
+                <div class="main__input">
+                    <input type="text" />
+                    <img src="./images/search.png">
+                </div>
+
+                <div class="main__buttons">
+                    <button type="submit">Google Search</button>
+                    <button type="submit">I'm Feeling Lucky</button>
+                </div>
+            </div>
+
+            <div class="main__languages">
+                <p class="main__label">Goole offered in:</p>
+                <ul class="main__language-list">
+                    <li><a href="#" class="main__language-link">Tiếng Việt</a></li>
+                    <li><a href="#" class="main__language-link">Français</a></li>
+                    <li><a href="#" class="main__language-link">中文（繁體)</a></li>
+                </ul>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <p class="footer__region">Vietnam</p>
+            <div class="footer__links">
+                <ul class="footer__link-1">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Advertising</a></li>
+                    <li><a href="#">Business</a></li>
+                    <li><a href="#">How Search Works</a></li>
+                </ul>
+
+                <ul class="footer__link-2">
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Settings</a></li>
+                </ul>
+            </div>
+        </footer>
     </div>
 </body>
 
